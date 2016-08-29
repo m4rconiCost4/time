@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 /**
- * Created by flavio on 11/07/16.
+ * Created by marconi.junior on 19/08/2016.
  */
 
 @ComponentScan

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import marconi.persistence.entity.Jogador;
 import marconi.persistence.service.JogadorService;
 /**
- * Created by flavio.mendes on 22/08/2016.
+ * Created by marconi.junior on 19/08/2016.
  */
 
 @RestController

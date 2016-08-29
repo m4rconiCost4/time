@@ -4,7 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import marconi.persistence.entity.Jogador;
 import marconi.persistence.repo.JogadorRepository;
-
+/**
+ * Created by marconi.junior on 19/08/2016.
+ */
 @Service
 public class JogadorService {
 
@@ -13,10 +15,7 @@ public class JogadorService {
 
     public void saveJogador(Jogador jogador) {
 
-//        if(jogador.getName() == null) {
-//            throw new Exception("Não pode ter nome nulo");
-//        }
-//        employee.setRegistrationNumber(geraMatricula());
+
         jogadorRepository.save(jogador);
     }
 
